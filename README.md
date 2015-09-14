@@ -88,7 +88,8 @@ Here are some variants that should be preserved before accepting new orders.
 
 - The best(highest) BUY order should not be equal to or higher than the best(lowest) SELL order. If this invariant is in violation, you need to fill more orders before accepting new orders.
 - For a given price, the order that is staged for filling should be the order that was first seen for that given price-level. (FIFO) This invariant should never be in violation.
-- For a given quanti
+- When a FILL event occurs, the quantity of at least one of the top orders (HIGHEST BUY and LOWEST SELL) needs to decrease in some way.
+- A new BUY order that has a price below the best current BUY price should not trigger a FILL. A new SELL order that a price above the best current SELL price should not trigger a FILL.
 
 ### File Formats
 We have provided two pairs of files which represent orders to be sent to the exchange and the fills (trades) that are expected from an order matching engine(one pair acts as a simple example case, and another pair that acts as a longer, more complex case -- which your implementation will be tested against).  
