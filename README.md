@@ -2,6 +2,8 @@
 # Build the Exchange!
 Sponsored by TransmarketGroup LLC
 
+**SUBMISSIONS IN BY 11:59PM ON SUNDAY SEPTEMBER 20TH**
+
 **Note: We have provided the larger files (orders.txt and fills.txt); however, they needed to be compressed in order to be put on github. It may take some time to uncompress orders.txt -- as it has a high compression ratio.**
 
 ### Overview
