@@ -2,6 +2,8 @@
 # Build the Exchange!
 Sponsored by TransmarketGroup LLC
 
+**Note: We have provided the larger files (orders.txt and fills.txt); however, they needed to be compressed in order to be put on github. It may take some time to uncompress orders.txt -- as it has a high compression ratio.**
+
 ### Overview
 In this exercise, you will be implementing an order matching engine -- the heart of any modern electronic exchange. The Matching Engine is an algorithm implemented in software that matches customers' buying and selling instructions.
 
