@@ -2,6 +2,8 @@
 # Build the Exchange!
 Sponsored by TransmarketGroup LLC
 
+**FILLS FILE HAS CHANGED, THERE WAS AN INTEGER OVERFLOW IN THE OLD FILE, PLEASE USE NEW PROVIDED FILE TO JUDGE YOUR IMPLEMENTATION**
+
 **SUBMISSIONS IN BY 11:59PM ON SUNDAY SEPTEMBER 20TH**
 
 **Note: We have provided the larger files (orders.txt and fills.txt); however, they needed to be compressed in order to be put on github. It may take some time to uncompress orders.txt -- as it has a high compression ratio.**
